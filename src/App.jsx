@@ -835,7 +835,10 @@ export default function IEPNavigator() {
     </div>
     <div style={{background:`${theme.gold}15`,border:`1.5px solid ${theme.gold}40`,borderRadius:12,padding:14}}>
       <div style={{fontSize:11,fontWeight:700,color:"#8B6914",marginBottom:4,textTransform:"uppercase",letterSpacing:0.6,fontF
-
+</div>
+    </div>
+  </div>
+)}
       {/* BOTTOM NAV */}
       <div style={{position:"fixed",bottom:0,left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:430,background:"white",borderTop:`1.5px solid ${theme.border}`,display:"flex",zIndex:20,paddingBottom:4,overflowX:"auto"}}>
         {tabs.map(t=>(
