@@ -811,35 +811,8 @@ export default function IEPNavigator() {
         )}
 
       </div>
-      {/* FEEDBACK */}
-{tab==="feedback"&&(
-  <div style={{padding:"20px 16px"}}>
-    <img
-      src="https://raw.githubusercontent.com/ShonNicole48/IEP-NAVIGATOR/main/public/IEP_NAVIGATOR_GOGGLE_FORM_BANNER.png"
-      alt="IEP Navigator – Share Your Experience"
-      style={{width:"100%",borderRadius:12,marginBottom:16}}
-    />
-    <div style={{background:"white",borderRadius:12,padding:16,border:`1.5px solid ${theme.border}`,marginBottom:16}}>
-      <div style={{fontSize:17,fontWeight:700,color:theme.navy,marginBottom:8}}>Share Your Experience</div>
-      <div style={{fontSize:13,color:theme.textMuted,fontFamily:"sans-serif",lineHeight:1.6,marginBottom:16}}>
-        Your voice matters. IEP Navigator was built to help families feel informed, prepared, and confident walking into any school meeting. Take a few minutes to share your experience — your feedback helps us improve the tool and helps more families find the support they need.
-      </div>
-      
-        href="https://forms.gle/m99cD4a54BTZSR6U6"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{display:"block",background:theme.navy,color:theme.gold,textAlign:"center",padding:"14px 16px",borderRadius:10,fontFamily:"sans-serif",fontWeight:700,fontSize:15,textDecoration:"none",letterSpacing:0.4}}
-      >
-        📝 Open Feedback Form
-      </a>
-    </div>
-    <div style={{background:`${theme.gold}15`,border:`1.5px solid ${theme.gold}40`,borderRadius:12,padding:14}}>
-     <div style={{fontSize:11,fontWeight:700,color:"#8B6914",marginBottom:4,textTransform:"uppercase",letterSpacing:0.6,fontFamily:"sans-serif"}}>💛 Why This Matters</div>
-          <div style={{fontSize:13,color:theme.textDark,lineHeight:1.6,fontFamily:"sans-serif"}}>Every response helps us grow, improve, and reach more families who need support. Thank you for being part of this community.</div>
-        </div>
-      </div>
-    </div>
-)}
+     {/* FEEDBACK */}
+{tab==="feedback"&&(<div style={{padding:"20px 16px"}}><img src="https://raw.githubusercontent.com/ShonNicole48/IEP-NAVIGATOR/main/public/IEP_NAVIGATOR_GOGGLE_FORM_BANNER.png" alt="IEP Navigator" style={{width:"100%",borderRadius:12,marginBottom:16}}/><div style={{background:"white",borderRadius:12,padding:16,border:`1.5px solid ${theme.border}`,marginBottom:16}}><div style={{fontSize:17,fontWeight:700,color:theme.navy,marginBottom:8}}>Share Your Experience</div><div style={{fontSize:13,color:theme.textMuted,fontFamily:"sans-serif",lineHeight:1.6,marginBottom:16}}>Your voice matters. Take a few minutes to share your experience — your feedback helps us improve and helps more families find support.</div><a href="https://forms.gle/m99cD4a54BTZSR6U6" target="_blank" rel="noopener noreferrer" style={{display:"block",background:theme.navy,color:theme.gold,textAlign:"center",padding:"14px 16px",borderRadius:10,fontFamily:"sans-serif",fontWeight:700,fontSize:15,textDecoration:"none"}}>📝 Open Feedback Form</a></div><div style={{background:`${theme.gold}15`,border:`1.5px solid ${theme.gold}40`,borderRadius:12,padding:14}}><div style={{fontSize:11,fontWeight:700,color:"#8B6914",marginBottom:4,fontFamily:"sans-serif"}}>💛 Why This Matters</div><div style={{fontSize:13,color:theme.textDark,lineHeight:1.6,fontFamily:"sans-serif"}}>Every response helps us grow and reach more families who need support.</div></div></div>)}
       {/* BOTTOM NAV */}
       <div style={{position:"fixed",bottom:0,left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:430,background:"white",borderTop:`1.5px solid ${theme.border}`,display:"flex",zIndex:20,paddingBottom:4,overflowX:"auto"}}>
         {tabs.map(t=>(
