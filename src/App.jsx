@@ -272,7 +272,7 @@ export default function IEPNavigator() {
     {id:"rights",label:"Rights",icon:"🛡️"},{id:"laws",label:"Laws",icon:"📘"},
     {id:"health",label:"Health",icon:"🏥"},{id:"charter",label:"Charter",icon:"🏫"},
     {id:"checklist",label:"List",icon:"✅"},{id:"log",label:"Log",icon:"📂"},
-    {id:"glossary",label:"Terms",icon:"📖"},{id:"glossary",label:"Terms",icon:"📖"},
+    {id:"glossary",label:"Terms",icon:"📖"},
 {id:"feedback",label:"Feedback",icon:"💬"},
   ];
 
