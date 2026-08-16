@@ -834,10 +834,11 @@ export default function IEPNavigator() {
       </a>
     </div>
     <div style={{background:`${theme.gold}15`,border:`1.5px solid ${theme.gold}40`,borderRadius:12,padding:14}}>
-      <div style={{fontSize:11,fontWeight:700,color:"#8B6914",marginBottom:4,textTransform:"uppercase",letterSpacing:0.6,fontF
-</div>
+     <div style={{fontSize:11,fontWeight:700,color:"#8B6914",marginBottom:4,textTransform:"uppercase",letterSpacing:0.6,fontFamily:"sans-serif"}}>💛 Why This Matters</div>
+          <div style={{fontSize:13,color:theme.textDark,lineHeight:1.6,fontFamily:"sans-serif"}}>Every response helps us grow, improve, and reach more families who need support. Thank you for being part of this community.</div>
+        </div>
+      </div>
     </div>
-  </div>
 )}
       {/* BOTTOM NAV */}
       <div style={{position:"fixed",bottom:0,left:"50%",transform:"translateX(-50%)",width:"100%",maxWidth:430,background:"white",borderTop:`1.5px solid ${theme.border}`,display:"flex",zIndex:20,paddingBottom:4,overflowX:"auto"}}>
