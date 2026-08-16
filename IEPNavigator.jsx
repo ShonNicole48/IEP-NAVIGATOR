@@ -814,7 +814,7 @@ export default function IEPNavigator() {
 {tab==="feedback"&&(
   <div style={{padding:"20px 16px"}}>
     <img
-      src="https://raw.githubusercontent.com/ShonNicole48/IEP-NAVIGATOR/main/public/IEP_NAVIGATOR_GOGGLE_FORM_BANNER.png"
+     src="https://raw.githubusercontent.com/ShonNicole48/IEP-NAVIGATOR/main/public/IEP%20NAVIGATOR%20GOGGLE%20FORM%20BANNER.png"
       alt="IEP Navigator – Share Your Experience"
       style={{width:"100%",borderRadius:12,marginBottom:16}}
     />
